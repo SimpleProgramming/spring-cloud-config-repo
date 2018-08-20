@@ -11,7 +11,7 @@ spring:
       fail-on-unknown-properties: true
 info:
   app:
-    name: student-service
+    name: student-microservice
     description: Student Service
     version: v1.0
 endpoints:
