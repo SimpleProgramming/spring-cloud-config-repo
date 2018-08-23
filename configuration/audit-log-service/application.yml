@@ -1,0 +1,25 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: spring_cloud
+      port: 9042
+      contact-points: localhost
+info:
+  app:
+    name: audit-log-service
+    description: Student Service
+    version: v1.0
+endpoints:
+  actuator:
+    enabled: true
+    sensitive: true
+  health:
+    enabled: true
+    sensitive: true
+  metrics:
+    enabled: true
+    id: metrics
+    sensitive: true
+management:
+  security:
+    enabled: false
