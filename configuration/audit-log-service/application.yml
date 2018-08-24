@@ -7,7 +7,7 @@ spring:
 info:
   app:
     name: audit-log-service
-    description: Student Service
+    description: Audit Log Service
     version: v1.0
 endpoints:
   actuator:
